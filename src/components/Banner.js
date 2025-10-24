@@ -57,7 +57,9 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sajid`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Fresher","Frontend Developer", "Raectjs.Developer", "Python Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>Enthusiastic and detail-oriented Web Developer (Fresher) with a solid foundation in building responsive and user-friendly websites using HTML, CSS, JavaScript, ReactJS, and Bootstrap. Proficient in front-end development, UI/UX design principles, and version control systems like Git and GitHub. Passionate about learning new technologies such as Node.js, Express.js, and MongoDB, and writing clean, efficient, and maintainable code. Eager to contribute to a growth-oriented IT organization where I can apply my skills, gain hands-on experience, and enhance my knowledge in Front-End Development, Full-Stack Web Development, and Modern JavaScript Frameworks.</p>
+                  <p>Frontend Web Developer (Fresher) with a B.Sc. in Computer Science (2025) and hands-on experience building responsive UIs with HTML, CSS, Tailwind CSS, Bootstrap, JavaScript, React, and Redux.​
+Built projects including an e-commerce platform, real-time chat app, portfolio, blog, and to‑do list; also comfortable with Python and modern frontend workflows.​
+Recognized for collaboration, problem-solving, and leadership, and eager to contribute to innovative teams while growing professionally.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
